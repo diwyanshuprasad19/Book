@@ -1,0 +1,90 @@
+
+.formaddbody {
+margin: 30px auto;
+}
+
+.formaddbody    .form-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formaddbody     .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .formaddbody     label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formaddbody     input[type="text"],
+  .formaddbody     textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .formaddbody     button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formaddbody      button:hover {
+    background-color: #45a049;
+  }
+  
+  .formaddbody    input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+
+
+
+  .formaddbody  select{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formaddbody   select:hover,
+  .formaddbody   select:focus {
+    border-color: #007bff; /* Change border color on hover/focus */
+  }
+  
+  .formaddbody  select option {
+    font-size: 16px;
+  }
+  
+  /* Style for invalid select (when a user submits without selecting an option) */
+  .formaddbody   select:invalid {
+    border-color: #ff0000;
+  }
+  
+  

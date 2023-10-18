@@ -1,0 +1,90 @@
+.herobody  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+    width: 100%;
+}
+.herobody  .hero-wrapper {
+    height: 600px;
+    width: 100%;
+    background: rgb(60, 65, 68);
+    background-image:url(https://images.unsplash.com/photo-1505032254650-38c840ef254d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a2d929ec8be991967b81fb5d8cdba58&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.herobody  .hero-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+/*             background: rgb(60, 65, 68); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.herobody  .hero-content {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.herobody  .hero-wrapper div h1 {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.herobody  .hero-wrapper p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px;
+}
+
+.herobody  .hero-wrapper button {
+    padding: 15px 50px;
+    background: #252023;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 5px;
+    font-family: 'Lato', sans-serif;
+}
+.herobody  .hero-wrapper button:hover {
+    transform: scale(1.1);
+    background: #fff;
+    color: #252023;
+}
+
+
+@media screen and (max-width:530px) {
+    .herobody     .hero-content {
+        padding: 15px;
+    }
+    .herobody    .hero-wrapper div h1 {
+        font-size: 28px;
+    }
+    .herobody   .hero-wrapper div p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .herobody    .hero-wrapper button {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 0px 2px;
+    }
+}

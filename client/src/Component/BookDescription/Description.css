@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.descriptionbody  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2.5rem 10rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+
+.descriptionbody  .card-wrapper{
+    max-width: 1100px;
+
+}
+.descriptionbody  img{
+    width: 100%;
+    display: block;
+  
+}
+.descriptionbody  .img-display{
+    overflow: hidden;
+}
+.descriptionbody  .img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.descriptionbody  .img-showcase img{
+    max-width: 70%;
+    margin: 30px auto;
+}
+.descriptionbody  .img-select{
+    display: flex;
+}
+.descriptionbody  .img-item{
+    margin: 0.3rem;
+}
+.descriptionbody  .img-item:nth-child(1),
+.descriptionbody  .img-item:nth-child(2),
+.descriptionbody  .img-item:nth-child(3){
+    margin-right: 0;
+}
+.descriptionbody  .img-item:hover{
+    opacity: 0.8;
+}
+.descriptionbody  .product-content{
+    padding: 2rem 1rem;
+}
+.descriptionbody  .product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+.descriptionbody  .product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+}
+.descriptionbody  .product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.descriptionbody  .product-link:hover{
+    opacity: 0.9;
+}
+.descriptionbody  .product-rating{
+    margin-left: 20px;
+    color: #ffc107;
+}
+.descriptionbody  .product-rating span{
+    font-weight: 600;
+    color: #252525;
+    margin-left: 20px;
+}
+.descriptionbody  .product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.descriptionbody  .product-price span{
+    font-weight: 400;
+}
+.descriptionbody  .last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.descriptionbody  .new-price span{
+    color: #256eff;
+}
+.descriptionbody  .product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.descriptionbody  .product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.descriptionbody  .product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.descriptionbody  .product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.descriptionbody  .product-detail ul li span{
+    font-weight: 400;
+}
+.descriptionbody  .purchase-info{
+    margin: 1.5rem 1rem;
+}
+.descriptionbody  .purchase-info input,
+.descriptionbody  .purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.descriptionbody  .purchase-info input{
+    width: 60px;
+}
+.descriptionbody  .purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.descriptionbody  .purchase-info .btn:first-of-type{
+    background: #256eff;
+}
+.descriptionbody  .purchase-info .btn:last-of-type{
+    background: green;
+}
+.descriptionbody  .purchase-info .btn:hover{
+    opacity: 0.9;
+}
+
+@media screen and (min-width: 992px){
+
+
+    .descriptionbody      .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .descriptionbody     .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descriptionbody    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .descriptionbody    .product-content{
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .descriptionbody  {
+        margin: 2.5rem 0rem;
+    }
+    .descriptionbody    .product-imgs{
+     height: 30%;
+    }
+}

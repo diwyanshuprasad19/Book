@@ -1,0 +1,138 @@
+
+
+
+.navbody  {
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+.navbody  .navcontainer{
+  font-family: montserrat;
+
+}
+.navbody  nav{
+  background: silver;
+  height: 80px;
+  width:100%;
+  opacity:0.5;
+
+
+}
+.navbody  label.logo{
+  color:white;
+  font-size: 35px;
+  line-height: 100px;
+  padding:0 100px;
+  font-weight: bold;
+
+}
+.navbody  nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+
+.navbody  nav ul li{
+  display:inline-block;
+  line-height:80px;
+  margin: 0 5px;
+
+}
+
+.navbody  nav ul li a{
+  color:white;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+padding: 7px 13px;
+border-radius: 3px;
+}
+
+.navbody  a.active,.navbody  a:hover{
+  background: grey;
+  transition: 0.5s;
+}
+.navbody  .icon{
+  margin-left: 20px;
+}
+
+.navbody  .checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor:pointer;
+  display:none;
+}
+.navbody  #check{
+display:none;
+}
+
+.navbody  .navbody  .count {
+  position: static;
+  background-color: #ff5050 !important;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+@media(max-width:1100px){
+  .navbody   .navbody{
+   position: relative;
+    z-index: 11;
+  }
+  .navbody  .checkbtn{
+  display: block;
+
+}
+.navbody  nav ul{
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background: #2c3e50;
+  top: 64px;
+  left: -110%;
+  text-align: center;
+  transition: all 0.5s;
+
+}
+.navbody  nav ul li{
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+
+
+}
+.navbody  nav ul li a{
+  font-size: 20px;
+
+}
+.navbody  a:hover,.navbody  a:active{
+  background: none;
+  color: #0082e6;
+}
+
+.navbody  #check:checked ~ ul{
+left: 0;
+}
+}
+
+
+@media(max-width:466px){
+  .navbody   label.logo{
+    color:white;
+    font-size: 16px;
+    line-height: 100px;
+    padding:0 100px;
+    font-weight: bold;
+  
+  }
+}

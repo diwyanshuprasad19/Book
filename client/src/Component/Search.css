@@ -1,0 +1,68 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px; /* Set maximum width as needed */
+  margin: 50px auto; /* Center the container horizontally */
+}
+
+.search-bar {
+  padding: 10px;
+  width: 60%; /* 60% width for the search bar */
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.select-tag {
+  padding: 10px;
+  width: 30%; /* 30% width for the select tag */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px; /* Spacing between button and select tag */
+}
+/* ... Previous CSS styles ... */
+
+.custom-select {
+  position: relative;
+  width: 30%; /* Width of the select container */
+}
+
+.custom-select select {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1; /* Background color of the select */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media(max-width:500px){
+  .search-bar {
+
+    width: 40%; /* 60% width for the search bar */
+font-size: 0.7rem;
+  }
+  .search-button {
+    padding: 10px 10px;
+
+  }
+  .select-tag {
+    width: 20%; /* 30% width for the select tag */
+
+  }
+  
+}

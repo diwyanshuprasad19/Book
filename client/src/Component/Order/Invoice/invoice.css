@@ -1,0 +1,169 @@
+.invoice-box .top_rw{ background-color:#f4f4f4; }
+.invoice-box	button{ padding:5px 10px; font-size:14px;}
+    .invoice-box {
+        max-width: 55.625rem;
+        margin: auto;
+        padding:0.625rem;
+        border: 1px solid #eee;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, .15);
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+        overflow-x: auto;
+    }
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+		border-bottom: solid 1px #ccc;
+    }
+    .invoice-box table td {
+        padding: 0.3125rem;
+        vertical-align:middle;
+    }
+    .invoice-box table tr td:nth-child(1) {
+        text-align: left;
+    }
+    .invoice-box table tr td:nth-child(2) {
+        text-align: right;
+    }
+    .invoice-box table tr.top table td {
+        padding-bottom: 1.25rem;
+    }
+    .top table{
+        border-bottom: none !important;
+    }
+    .invoice-box table tr.top table td.title {
+        font-size: 2.8125rem;
+        line-height: 2.8125rem;
+        color: #333;
+    }
+    .invoice-box table tr.information table td {
+        padding-bottom: 2.5rem;
+    }
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+		font-size:0.75rem;
+    }
+    .invoice-box table tr.details td {
+        padding-bottom: 1.25rem;
+    }
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+    }
+    .invoice-box table tr.item.last td {
+        border-bottom: none;
+    }
+    .invoice-box table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* button*/
+    .button-container1 {
+        text-align: center;
+        margin-top: 1.25rem; /* Adjust margin as needed */
+        margin-bottom: 1.25rem;
+    }
+    
+    .button-container1   .print-button,
+    .button-container1   .download-button {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.625rem;
+        margin: 0 0.625rem; /* Adjust spacing between buttons */
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .button-container1    .print-button:hover,
+    .button-container1   .download-button:hover {
+        background-color: #0056b3;
+    }
+    
+
+    .signature {
+
+        font-family: 'Pacifico', cursive;
+        font-size: 1.5rem;
+        color: #333;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 0.625rem;
+      }
+
+
+
+
+    @media only screen and (max-width: 600px) {
+
+
+.set111{
+    font-size: 1rem;
+}
+.set222{
+    font-size: 0.75rem;
+}
+.set333{
+    font-size: 0.75rem;
+    
+}
+
+
+
+.invoice-box table tr.heading td {
+    font-size:0.5rem;
+    white-space: nowrap;
+}
+.invoice-box table tr.item td{
+   font-size: 0.5rem;
+}
+
+.invoice-box table tr.total td {
+   font-size: 0.75rem;
+   white-space: nowrap;
+}
+        .invoice-box table tr.top table td {
+            display: block;
+            width: 120%;
+            
+
+        }
+        .invoice-box table tr.information table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+
+    /** RTL **/
+    .invoice-box .rtl {
+        direction: rtl;
+        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    }
+    .invoice-box .rtl table {
+        text-align: right;
+    }
+    .invoice-box .rtl table tr td:nth-child(2) {
+        text-align: left;
+    }
+
+

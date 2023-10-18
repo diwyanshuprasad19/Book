@@ -1,0 +1,157 @@
+.midorderhishead{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+.bodyroworder    {
+    display:block;
+    width: 75%;
+    margin: 50px auto;
+    border: 1px solid silver;
+}
+
+
+.bodyroworder  .orderhistorybody{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bodyroworder  .orderhistorybody   .order-image{
+    width: 20px !important;
+    margin: 10px 10px 0px 0px;
+    flex: 1;
+    text-align: right;
+}
+
+.bodyroworder  .orderhistorybody  .order-info{
+    flex: 1;
+    text-align: left;
+    margin-left: 1rem;
+}
+.bodyroworder  .buttoncol{
+    display: inline;
+}
+.bodyroworder  .coltwo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.bodyroworder  .button {
+    padding: 0.5rem 0.8rem;
+    margin: 0rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.bodyroworder  .button:hover {
+    background-color: #45a049;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.bodyroworder  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+
+
+
+@media(max-width:750px){
+
+       .bodyroworder{
+        width: 90%;
+
+    }
+}
+
+@media(max-width:550px){
+    .midorderhishead{
+
+        font-size: 1.5rem;
+
+    }
+    
+    
+
+
+    .bodyroworder{
+        width: 95%;
+    }
+    
+    
+    .bodyroworder    .orderhistorybody{
+    font-size: 0.8rem;
+    }
+    
+    .bodyroworder  .order-info{
+    line-height: 160%;
+}
+}
+
+@media(max-width:400px){
+     .bodyroworder{
+        width: 98%;
+    }
+    
+    
+    .bodyroworder    .orderhistorybody{
+    font-size: 0.7rem;
+    }
+    .bodyroworder   .order-info{
+        line-height: 230%;
+    }
+    
+}
+
+
+
+
+.bodyemptycart {
+    font-family: Arial, sans-serif;
+    margin-bottom: 8rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .bodyemptycart  .cart-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bodyemptycart  .bigger-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .bodyemptycart  .smaller-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  
